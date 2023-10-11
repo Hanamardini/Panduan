@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">PanduanApp</string>
+
+    <!--Panduan Guru-->
+    <string name="buat">Panduan Membuat Kelas</string>
+    <string name="buat1">1. Dibagian bawah halaman klik + untuk membuat kelas</string>
+    <string name="buat2">2. Masukkan nama kelas</string>
+    <string name="buat3">3. (Opsional) Untuk menambahkan Ruang dan Mata Pelajaran</string>
+    <string name="buat4">4. Klik Buat</string>
+
+    <string name="materi"> Panduan Membuat Materi</string>
+    <string name="materi1">1. Klik kelas Materi</string>
+    <string name="materi2">2. Dibagian bawah halaman klik + untuk menambahkan materi</string>
+    <string name="materi3">3. Masukkan judul, deskripsi dan topik</string>
+    <string name="materi4">4. (Opsional) Untuk memasukkan deskripsi singkat</string>
+
+    <string name="quiz">Panduan Membuat Quiz</string>
+    <string name="quiz1">1. Klik bagian Quiz</string>
+    <string name="quiz2">2. Dibagian bawah halaman klik + untuk menambahkan quiz</string>
+    <string name="quiz3">3. Masukkan nama quiz dan tambahkan pertanyaan</string>
+    <string name="quiz4">4. Pilih jenis soal</string>
+    <string name="quiz5">5. Masukkan soal dan jawaban</string>
+    <string name="quiz6">6. Posting</string>
+
+    <!--Panduan Siswa-->
+    <string name="masuk">Panduan Masuk Kelas</string>
+    <string name="masuk1">1. Klik kelas pada menu Home</string>
+    <string name="masuk2">2. Dibagian bawah halaman klik + untuk menambahkan kelas</string>
+    <string name="masuk3">3. Masukkan kode kelas</string>
+    <string name="masuk4">4. Gabung</string>
+
+    <string name="aksesmateri">Panduan Mengakses Materi Kelas</string>
+    <string name="aksesmateri1">1. Klik kelas lalu pilih materi</string>
+    <string name="aksesmateri2">2. Pilih materi yang akan dipelajari</string>
+
+    <string name="aksesquiz">Panduan Mengakses Quiz</string>
+    <string name="aksesquiz1">1. Klik kelas lalu pilih quiz</string>
+    <string name="aksesquiz2">2. Masukkan PIN</string>
+    <string name="aksesquiz3">3. Pada soal multiple choice, kerjakan soal dengan klik salah satu jawaban benar</string>
+    <string name="aksesquiz4">4. Pada soal isian, tulis jawaban yang tersedia pada kolom</string>
+
+    <string name="eksplor">Panduan Mengeksplor Materi</string>
+    <string name="eksplor1">1. Eksplorasi pada menu Home</string>
+    <string name="eksplor2">2. Pilih materi yang akan dipelajari</string>
+
+</resources>

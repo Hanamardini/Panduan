@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEC430"
+    tools:context=".PanduanSiswaActivity">
+
+    <TextView
+        android:id="@+id/tv_panduan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/poppins_black"
+        android:text="Panduan"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/btn_guru"
+        android:layout_width="182dp"
+        android:layout_height="62dp"
+        android:background="@android:color/background_light"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center"
+        android:text="Guru"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/btn_siswa"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:background="@color/material_dynamic_neutral60"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center"
+        android:text="Siswa"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <FrameLayout
+        android:layout_width="370dp"
+        android:layout_height="500dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_siswa"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_black"
+            android:text="@string/masuk"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/masuk1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/masuk2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="81dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/masuk3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="99dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/masuk4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="128dp"
+            android:fontFamily="@font/poppins_black"
+            android:text="@string/aksesmateri"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="148dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/aksesmateri1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="167dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/aksesmateri2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="195dp"
+            android:fontFamily="@font/poppins_black"
+            android:text="@string/aksesquiz"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="215dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/aksesquiz1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="232dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/aksesquiz2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/aksesquiz3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="288dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/aksesquiz4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="340dp"
+            android:fontFamily="@font/poppins_black"
+            android:text="@string/eksplor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="360dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/eksplor1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="380dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="@string/eksplor2"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
